@@ -1,0 +1,12 @@
+
+SELECT * FROM "store" JOIN "staff" ON "staff"."store_id"="store"."store_id";
+
+INSERT INTO "actor"("actor_id,"first_name","last_name","last_update") VALUES(201, 'John', 'Carter', '2013-05-26 14:47:57.62');
+SELECT address_id, address, district FROM address WHERE phone > '' AND district LIKE 'QLD';
+SELECT COUNT (store_id) AS RESULT FROM customer WHERE store_id=1;
+SELECT (district) FROM address WHERE district='England' OR district='Vilna';
+SELECT actor_id, first_name, last_name FROM actor ORDER BY first_name;
+
+SELECT * FROM city WHERE country_id='6';
+SELECT * FROM city WHERE country_id BETWEN '20' AND '60';
+
